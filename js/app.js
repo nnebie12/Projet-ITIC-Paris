@@ -21,4 +21,21 @@ document.addEventListener("DOMContentLoaded", e => {
     nombre === x ? console.log(true) : console.log(false);
     console.table(table);
     console.log(speack.split(""));
+
+    // tableaux
+
+    
+
+    table = ["html", 1984, false]
+    table.push(nombre)
+    console.log(table.length)
+    table.pop(nombre)
+    table.unshift(nombre)
+    table.shift(nombre)
+    console.log(table)
+
+    table
+
+
+    
 });
